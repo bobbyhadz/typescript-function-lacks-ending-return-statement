@@ -76,3 +76,20 @@ const getNumber = (): number => {
 //   }
 //   return 'bye';
 // };
+
+// ---------------------------------------------------
+
+// // EXAMPLE 6 - Returning values only from nested functions
+
+// // ✅ Works now
+// const getString = (): string => {
+//   if ('hello'.length === 5) {
+//     return 'hello';
+//   }
+
+//   function inner() {
+//     return 'bye';
+//   }
+
+//   return inner();
+// };
